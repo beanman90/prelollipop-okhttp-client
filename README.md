@@ -6,9 +6,11 @@ Jitpack URL:
 https://jitpack.io/#beanman90/prelollipop-okhttp-client
 
 Usage:
-
+```java
 AndroidNetworking.initialize(this, new OkHttpTLSCompat().getClient());
-
+```
+```java
 new Picasso.Builder(this)
                 .downloader(new OkHttp3Downloader(new OkHttpTLSCompat().getClient()))
                 .listener((picasso, uri, exception) -> exception.printStackTrace()).build();
+```
