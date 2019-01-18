@@ -1,4 +1,4 @@
-# prelollipop-okhttp-client
+# prelollipop-okhttp-client [![](https://jitpack.io/v/beanman90/prelollipop-okhttp-client.svg)](https://jitpack.io/#beanman90/prelollipop-okhttp-client)
 OkHttpClient Compat (Fix OpenSSL Handshake on PreLollipop OS)
 
 Jitpack URL:
