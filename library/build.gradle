@@ -1,0 +1,41 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+apply plugin: 'com.github.dcendents.android-maven'
+
+repositories {
+    mavenCentral()
+    google()
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
+group = 'beanman-http'
+version = '1.0.0'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName version
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    afterEvaluate {
+        generateReleaseBuildConfig.enabled = false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    compileOnly 'com.squareup.okhttp3:okhttp:+'
+}
