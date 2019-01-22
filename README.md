@@ -1,4 +1,4 @@
-# Pre-Lollipop OkHttpClient [![](https://jitpack.io/v/beanman90/prelollipop-okhttp-client.svg)](https://jitpack.io/#beanman90/prelollipop-okhttp-client) [![downloads](https://jitpack.io/v/beanman90/prelollipop-okhttp-client/month.svg)](https://jitpack.io/#beanman90/prelollipop-okhttp-client) [(https://img.shields.io/badge/Recommend-%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F-green.svg)]
+# Pre-Lollipop OkHttpClient [![](https://jitpack.io/v/beanman90/prelollipop-okhttp-client.svg)](https://jitpack.io/#beanman90/prelollipop-okhttp-client) [![downloads](https://jitpack.io/v/beanman90/prelollipop-okhttp-client/month.svg)](https://jitpack.io/#beanman90/prelollipop-okhttp-client) [![](https://img.shields.io/badge/Recommend-%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F-green.svg)]
 
 OkHttpClient Compat (Fix OpenSSL Handshake on PreLollipop OS)
 
